@@ -29,7 +29,18 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
     - cd ~/.oh-my-zsh/custom/plugins
     - 再次打开.zshrc文件，在最后面添加下面内容`plugins=(zsh-syntax-highlighting)`，保存文件。
 
-
+9. 安装其他的插件：
+  ```
+    plugins=(
+    zsh-syntax-highlighting
+    zsh-autosuggestions
+    git
+    brew
+    adb
+    npm
+    gradle
+  )
+  ```
 
 最终效果还是可以的：
 ![1d71ce2f889098ff.png](file:///Users/tristanhuang/Desktop/myTerminal/mac_platform/images/1d71ce2f889098ff.png)
@@ -38,7 +49,6 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 --------- 
 1. 我的agnoster主题有点问题，就是提示符的那个箭头出不来，是问号一样的东西，所以试了一下还比较好的主题有：sunrise/sunaku/wezm
 2. 查看系统当前支持的shell:`cat /etc/shells`
-
 ---------
 参考的地方：
 1. [iterm2 && Oh My Zsh](https://www.jianshu.com/p/7de00c73a2bb)
